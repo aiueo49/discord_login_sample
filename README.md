@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 概要
 
-Things you may want to cover:
+DiscordのOAthu2認証を試すためのサンプルコード。
 
-* Ruby version
+ログインボタンを押すと認証ページへ遷移、認証後ユーザーページへ遷移。
 
-* System dependencies
 
-* Configuration
+# 参考サイト
 
-* Database creation
+https://zenn.dev/choco0809/articles/7e4f696c8c9878
 
-* Database initialization
+https://zenn.dev/batacon/articles/e9b4a88ede2889
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+# チラシの裏
 
-* Deployment instructions
+`400 {"error": "invalid_grant", "error_description": "Invalid \"code\" in request."}`が延々発生。
 
-* ...
+色々ググるも解消せず。
+
+ふとしたきっかけで成功。コードはエラー発生時と同じはずなのに・・・原因不明。
+
+エラー解消に１日かかりました。さらば私の休み・・・。
